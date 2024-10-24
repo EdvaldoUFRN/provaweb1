@@ -1,0 +1,25 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Alinha itens nas extremidades */
+    align-items: center; /* Centraliza verticalmente */
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.caixa{
+    background-color: rgb(42, 64, 151);
+    height: 30px;
+    width: 100%;
+}
+
+#navbarNav{
+    justify-content: right;
+}
+
+.navbar-nav {
+    display: flex; /* Permite que os itens se alinhem em linha */
+    gap: 20px; /* Espaçamento entre os botões */
+}
