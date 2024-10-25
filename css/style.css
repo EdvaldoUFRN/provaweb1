@@ -12,45 +12,127 @@
     margin-left: 80px;
     margin-right: 80px;
 }
-#bem{
+
+#bem {
     display: flex;
 }
 
-#poxa {
+#conteudo {
     width: auto;
     display: flex;
     padding: 40px;
     margin-left: 0;
 }
 
-.bom {
-    width:max-content;
-    padding:10px 30px 10px 30px;
-}
-.btn-danger{
-    background-color: rgb(122, 31, 31);
+
+#conteudo button {
+    width: max-content;
+    padding: 10px 30px 10px 30px;
 }
 
-#poxa img {
+.btn-danger {
+    background-color: #81150d;
+}
+
+#conteudo img {
     width: 449px;
     height: 367px;
     margin-left: auto;
+
+}
+
+.campos {
+    background-color: rgba(128, 128, 128, 0.23);
+}
+
+#conteudo p {
+    text-transform: lowercase;
+    text-decoration: none;
+}
+
+.card {
+    border-color: rgba(255, 255, 255, 0.121);
+}
+
+.espaco {
+    margin-right: 90px;
+    width: 20rem;
+}
+
+.entre {
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+.traco {
+    border: 3px solid #8B0000;
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+
+.ultimo {
+    width: 20rem;
+}
+
+.saiba {
+    margin: auto;
+    display: flex;
+    width: max-content;
+    padding: 10px 50px 10px 50px;
+    background-color: #81150d;
+}
+
+.cartas {
+    background-color: #003366;
+    padding: 30px;
+}
+
+.imagep {
+    background-color: #003366;
     
 }
 
-#po {
+.titulo {
+    color: white;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+
+}
+
+.quadro {
+    padding: 10px;
+}
+
+.bemVindo {
+    color: #003366;
+}
+
+.nossoSite {
+    color: #81150d;
+}
+
+#imagemLarga {
     width: 100%;
     display: flex;
 }
 
-#po img {
+#imagemLarga img {
     max-width: 100%;
     height: auto;
 }
 
 
 .caixa {
-    background-color: rgb(35, 54, 130);
+    background-color: #003366;
+
     height: 40px;
     width: 100%;
 }
@@ -64,4 +146,19 @@
     /* Permite que os itens se alinhem em linha */
     gap: 20px;
     /* Espaçamento entre os botões */
+}
+
+.controle {
+    margin: auto;
+    display: flex;
+    width: max-content;
+}
+
+.enviar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 10px;
 }
