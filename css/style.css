@@ -2,24 +2,66 @@
     margin: 0px;
     padding: 0px;
 }
+
 .navbar {
     display: flex;
-    justify-content: space-between; /* Alinha itens nas extremidades */
-    align-items: center; /* Centraliza verticalmente */
+    justify-content: space-between;
+    /* Alinha itens nas extremidades */
+    align-items: center;
+    /* Centraliza verticalmente */
     margin-left: 80px;
     margin-right: 80px;
 }
-.caixa{
-    background-color: rgb(42, 64, 151);
-    height: 30px;
+#bem{
+    display: flex;
+}
+
+#poxa {
+    width: auto;
+    display: flex;
+    padding: 40px;
+    margin-left: 0;
+}
+
+.bom {
+    width:max-content;
+    padding:10px 30px 10px 30px;
+}
+.btn-danger{
+    background-color: rgb(122, 31, 31);
+}
+
+#poxa img {
+    width: 449px;
+    height: 367px;
+    margin-left: auto;
+    
+}
+
+#po {
+    width: 100%;
+    display: flex;
+}
+
+#po img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.caixa {
+    background-color: rgb(35, 54, 130);
+    height: 40px;
     width: 100%;
 }
 
-#navbarNav{
+#navbarNav {
     justify-content: right;
 }
 
 .navbar-nav {
-    display: flex; /* Permite que os itens se alinhem em linha */
-    gap: 20px; /* Espaçamento entre os botões */
+    display: flex;
+    /* Permite que os itens se alinhem em linha */
+    gap: 20px;
+    /* Espaçamento entre os botões */
 }
